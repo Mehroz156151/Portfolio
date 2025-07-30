@@ -103,7 +103,7 @@ function Projects() {
                 </>
               }
               ghLink="https://github.com/Mehroz156151/Portfolio"
-              demoLink="https://mehroz-portfolio.vercel.app/"
+              demoLink="https://portfolio-theta-two-76.vercel.app/"
             />
           </Col>
 
