@@ -103,7 +103,10 @@ function Projects() {
                 </>
               }
               ghLink="https://github.com/Mehroz156151/Portfolio"
+<<<<<<< HEAD
               demoLink="https://portfolio-theta-two-76.vercel.app/"
+=======
+>>>>>>> 4739865 (Update CV and project details)
             />
           </Col>
 
