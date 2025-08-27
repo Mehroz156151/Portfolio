@@ -84,6 +84,52 @@ function Projects() {
             />
           </Col>
 
+          {/* To Do List */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://media.istockphoto.com/id/2155475257/photo/checklist.jpg?s=612x612&w=0&k=20&c=vn7DJwwNSXcFAzfW31_sm1okN8hqC2HRaDH0nzEbHrA="
+              isBlog={false}
+              title="To Do List"
+              description={
+                <>
+                  A simple and responsive To-Do List application built with HTML, CSS, and JavaScript.
+                  <br />
+                  <ul>
+                    <li>Add, edit, and delete tasks easily</li>
+                    <li>Clean and user-friendly interface</li>
+                    <li>Responsive design for all screen sizes</li>
+                    <li>Local storage support to save tasks</li>
+                  </ul>
+                </>
+              }
+              ghLink="https://github.com/Mehroz156151/To-Do-List"
+              demoLink="https://mehroz156151.github.io/To-Do-List/"
+            />
+          </Col>
+
+          {/* Age Calculator */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://media.istockphoto.com/id/1467391774/photo/calculator-3d-isometric-design-element-background.jpg?s=612x612&w=0&k=20&c=LNMRZbJiRP6qdokiMXDWkwHg9nNCoFU9g3qrLvWuQJk="
+              isBlog={false}
+              title="Age Calculator"
+              description={
+                <>
+                  A lightweight and responsive Age Calculator built with HTML, CSS, and JavaScript.
+                  <br />
+                  <ul>
+                    <li>Calculates exact age in years, months, and days</li>
+                    <li>User-friendly input with instant results</li>
+                    <li>Responsive layout for all screen sizes</li>
+                    <li>Lightweight, fast, and easy to use</li>
+                  </ul>
+                </>
+              }
+            ghLink="https://github.com/Mehroz156151/Age-Calculator"
+            demoLink="https://mehroz156151.github.io/Age-Calculator/"
+            />
+          </Col>
+
           {/* Portfolio */}
           <Col md={4} className="project-card">
             <ProjectCard
