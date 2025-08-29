@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.tech-icons {
+  font-size: 3rem; /* icon size */
+  margin: 15px;
+  transition: transform 0.3s ease-in-out;
+  color: #5b157c; /* purple shade (you can change) */
+}
+
+.tech-icons:hover {
+  transform: scale(1.2);
+  color: #9c8df0; /* lighter hover effect */
+}
+
+.tech-icons p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #ffffff; /* subtle gray text */
+}
